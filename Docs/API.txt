@@ -1,4 +1,7 @@
 #===========================================================================
+git config --global user.name Dezinn1711
+git config --global user.email andreluizrosa4@gmail.com
+
 1. Definir com o grupo um nome para a sua loja e o segmento de mercado a ser abordado;
 
 
@@ -34,16 +37,16 @@
 
 
 9. Executar os comandos abaixo para adicionar as bibliotecas necessárias.
-    dotnet add package Microsoft.EntityFrameworkCore --version 8.0.8
-    dotnet add package Microsoft.EntityFrameworkCore.Design --version 8.0.8
-    dotnet add package Microsoft.EntityFrameworkCore.Tools --version 8.0.8
-    dotnet add package Microsoft.AspNetCore.Identity.EntityFrameworkCore --version 8.0.8
-    dotnet add package Microsoft.AspNetCore.Authentication.JwtBearer --version 8.0.8
+    dotnet add package Microsoft.EntityFrameworkCore --version 9.0.10
+    dotnet add package Microsoft.EntityFrameworkCore.Design --version 9.0.10
+    dotnet add package Microsoft.EntityFrameworkCore.Tools --version 9.0.10
+    dotnet add package Microsoft.AspNetCore.Identity.EntityFrameworkCore --version 9.0.10
+    dotnet add package Microsoft.AspNetCore.Authentication.JwtBearer --version 9.0.10
     dotnet add package System.IdentityModel.Tokens.Jwt --version 8.14.0
-    dotnet add package Pomelo.EntityFrameworkCore.MySql --version 8.0.2
-    dotnet add package Swashbuckle.AspNetCore --version 6.5.0
-    https://builds.dotnet.microsoft.com/dotnet/Sdk/8.0.418/dotnet-sdk-8.0.418-win-x64.exe
+    dotnet add package Pomelo.EntityFrameworkCore.MySql --version 9.0.0
+    dotnet add package Swashbuckle.AspNetCore --version 9.0.6
 
+    
 10. Criar na pasta Models, as classes do diagrama, que está na Docs (Categoria, Produto, Usuario);
     OBS: Lembre-se de adicionar os DataAnnotations necessários, em caso de dúvidas, consulte os projetos já desenvolvidos;
 
